@@ -210,7 +210,7 @@ Dla chcących pogłębić swoją wiedzę na temat Ruby'ego umieszczam link do se
 Kompletne i pełne przykładów kompedium. Polecam!
 
 
-##Pobieranie znów od użytkownika
+##Pobieranie znaków od użytkownika
 
 ```javascript
 
