@@ -10,4 +10,15 @@ irb(main):008:0> b = 4 ** 2
 irb(main):009:0> Math.sqrt(a+b)
 => 5.0
 ```
+##Metody
+```javascript
+irb(main):010:0> def h
+irb(main):011:1> puts "Hello World!"
+irb(main):012:1> end
+=> nil
+```
 
+Kod `def h` rozpoczyna definicje metody. Wskazuje Rubiemu, że definiujemy metodę, która nazywa się `h`. 
+Drukować tekst możemy na 2 sposoby:
+*za pomocą `puts`	`#dodaje nową linię po wykonaniu`
+*przy użyciu `print`  `#nie przeskakuje do nowej lini`
