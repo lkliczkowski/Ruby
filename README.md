@@ -20,5 +20,5 @@ irb(main):012:1> end
 
 Kod `def h` rozpoczyna definicje metody. Wskazuje Rubiemu, że definiujemy metodę, która nazywa się `h`. 
 Drukować tekst możemy na 2 sposoby:
-*za pomocą `puts`	`#dodaje nową linię po wykonaniu`
-*przy użyciu `print`  `#nie przeskakuje do nowej lini`
+* za pomocą `puts`	`#dodaje nową linię po wykonaniu`
+* przy użyciu `print`  `#nie przeskakuje do nowej lini`
