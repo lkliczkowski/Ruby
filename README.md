@@ -22,3 +22,16 @@ Kod `def h` rozpoczyna definicje metody. Wskazuje Rubiemu, że definiujemy metod
 Drukować tekst możemy na 2 sposoby:
 * za pomocą `puts`	`#dodaje nową linię po wykonaniu`
 * przy użyciu `print`  `#nie przeskakuje do nowej lini`
+
+##Hello {Stranger}
+Pora na prostu przykład metody, która przyjmuje imię jako parametr. Do dzieła!
+
+```javascript
+irb(main):015:0> def metoda(imie)
+irb(main):016:1> puts "Hello #{imie}!"
+irb(main):017:1> end
+=> nil
+irb(main):018:0> metoda("KorwinKrul")
+Hello KorwinKrul!
+=> nil
+```
