@@ -207,4 +207,19 @@ długo-
 
 
 Dla chcących pogłębić swoją wiedzę na temat Ruby'ego umieszczam link do serwisu [tutorialpoint](http://www.tutorialspoint.com/ruby).
-Znajdziecie tam kompedium wiedzy na temat jezyka jakim jest Ruby !
+Kompletne i pełne przykładów kompedium. Polecam!
+
+
+##Pobieranie znów od użytkownika
+
+```javascript
+
+zmienna = gets  #deklaruje zmienną "zmienna" i metodą gets uruchamiam możliwość wpisywania z klawiatury
+
+puts zmienna
+
+```
+
+	`zmienna=gets.chomp.to_i #konwertuje do liczb całkowitych strumień IN`
+
+#Życzę powodzenia w nauce RUBY!!!
