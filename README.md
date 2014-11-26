@@ -181,7 +181,7 @@ end
 ```
 ##Komentarze:
 Komentarze są bardze ważne i potrzebne. Większość młodych programistów nie komentuje swojego
-kodu, a efekty tego zaniedbania przychodzą później, gdy oglądająć nasz kod
+kodu, a efekty tego zaniedbania przychodzą później, gdy oglądając nasz kod
 nie mamy pojęcia o co nam chodziło  ;D
 
 Komentarze dzielimy na dwie grupy:
@@ -206,3 +206,5 @@ długo-
 ```
 
 
+Dla chcących pogłębić swoją wiedzę na temat Ruby'ego umieszczam link do serwisu [tutorialpoint](http://www.tutorialspoint.com/ruby).
+Znajdziecie tam kompedium wiedzy na temat jezyka jakim jest Ruby !
