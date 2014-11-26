@@ -155,3 +155,54 @@ for i in 1..5
    puts "Value of local variable is #{i}"
 end
 ```
+##Ruby IF...ELSE
+Chyba trudno wyobrazić sobie programowanie bez warunku IF ;) W Rubym wygląda to tak:
+
+```javascript
+if conditional [then]
+	  code...
+[elsif conditional [then]
+	  code...]...
+[else
+	  code...]
+end
+```
+Przykład:
+
+```javascript
+x=1
+if x > 2
+   puts "x jest większe od 2"
+elsif x <= 2 and x!=0
+   puts "x jest równe 1"
+else
+   puts "Nie mam pojęcia co to za liczba :/"
+end
+```
+##Komentarze:
+Komentarze są bardze ważne i potrzebne. Większość młodych programistów nie komentuje swojego
+kodu, a efekty tego zaniedbania przychodzą później, gdy oglądająć nasz kod
+nie mamy pojęcia o co nam chodziło  ;D
+
+Komentarze dzielimy na dwie grupy:
+
+* Pojedyńcze - umieszczane tylko w jednej lini.
+`# To jest mój komentarz`
+
+* Wielokrotne - zajmujące tyle lini kodu ile tylko nam się podoba.
+
+```javascript
+=begin
+To jest jakiś
+ciąg komentarza
+może i bez sensu
+ale pokazuję Ci
+że nie ma limitu
+dla
+długo-
+ści
+;D
+=end
+```
+
+
