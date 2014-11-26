@@ -24,7 +24,7 @@ Drukować tekst możemy na 2 sposoby:
 * przy użyciu `print`  `#nie przeskakuje do nowej lini`
 
 ##Hello {Stranger}
-Pora na prostu przykład metody, która przyjmuje imię jako parametr. Do dzieła!
+Pora na prosty przykład metody, która przyjmuje imię jako parametr. Do dzieła!
 
 ```javascript
 irb(main):015:0> def metoda(imie)
@@ -34,4 +34,113 @@ irb(main):017:1> end
 irb(main):018:0> metoda("KorwinKrul")
 Hello KorwinKrul!
 => nil
+```
+
+##Instrukcje warunkowe!
+Mamy do wyboru:
+
+* while
+
+```javascript
+$i = 0
+$num = 5
+
+while $i < $num  do
+   puts("Inside the loop i = #$i" )
+   $i +=1
+end
+```
+
+Druga opcja:
+
+```javascript
+$i = 0
+$num = 5
+begin
+   puts("Inside the loop i = #$i" )
+   $i +=1
+end while $i < $num
+```
+
+* until
+
+```javascript
+
+$i = 0
+$num = 5
+
+until $i > $num  do
+   puts("Inside the loop i = #$i" )
+   $i +=1;
+end
+```
+
+Druga opcja:
+```javascript
+$i = 0
+$num = 5
+begin
+   puts("Inside the loop i = #$i" )
+   $i +=1;
+end until $i > $num
+```
+
+* for
+
+```javascript
+for i in 0..5
+   puts "Value of local variable is #{i}"
+end
+```
+
+Druga opcja:
+
+```javascript
+(0..5).each do |i|
+   puts "Value of local variable is #{i}"
+end
+```
+
+* break
+
+```javascript
+for i in 0..5
+   if i > 2 then
+      break
+   end
+   puts "Value of local variable is #{i}"
+end
+```
+
+* next 
+
+```javascript
+for i in 0..5
+   if i < 2 then
+      next
+   end
+   puts "Value of local variable is #{i}"
+end
+```
+
+* redo
+
+```javascript
+for i in 0..5
+   if i < 2 then
+      puts "Value of local variable is #{i}"
+      redo
+   end
+end
+```
+
+* retry
+
+```javascript
+begin
+   do_something # exception raised
+rescue
+   # handles error
+   retry  # restart from beginning
+end
 ```
