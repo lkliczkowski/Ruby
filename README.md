@@ -61,6 +61,7 @@ begin
    $i +=1
 end while $i < $num
 ```
+==============================================================================
 
 * until
 
@@ -84,6 +85,7 @@ begin
    $i +=1;
 end until $i > $num
 ```
+============================================================================
 
 * for
 
@@ -100,6 +102,7 @@ Druga opcja:
    puts "Value of local variable is #{i}"
 end
 ```
+=============================================================================
 
 * break
 
@@ -111,6 +114,7 @@ for i in 0..5
    puts "Value of local variable is #{i}"
 end
 ```
+==============================================================================
 
 * next 
 
@@ -122,6 +126,7 @@ for i in 0..5
    puts "Value of local variable is #{i}"
 end
 ```
+=============================================================================
 
 * redo
 
@@ -133,14 +138,20 @@ for i in 0..5
    end
 end
 ```
+==========================================================================
 
 * retry
 
 ```javascript
-begin
-   do_something # exception raised
-rescue
-   # handles error
-   retry  # restart from beginning
+for i in 1..5
+   retry if some_condition # restart from i == 1
+end
+```
+Druga opcja:
+
+```javascript
+for i in 1..5
+   retry if  i > 2
+   puts "Value of local variable is #{i}"
 end
 ```
